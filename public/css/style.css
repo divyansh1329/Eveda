@@ -1,0 +1,77 @@
+.logo-size{
+
+  height: 64px;
+
+}
+
+.search-bar{
+  background-color: white;
+  color: black;
+}
+
+/*.option-menu .links{
+  font-size: 28px;
+  color: #f44336;
+  text-transform: uppercase;
+}*/
+
+@media only screen and (min-width: 960px) {
+  .option-menu .links{
+    font-size: 1.68rem;
+    color: #263238 ;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .option-menu .links {
+    font-size: 0.8rem;
+    color: #263238 ;
+    text-transform: uppercase;
+  }
+}
+
+.option-menu-button{
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.title{
+  color: #37474f ;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 3rem;
+}
+
+.sub-text{
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#test1 , #test2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.feature{
+  width: 100%;
+  height: auto;
+}
+span{
+
+}
+.circle{
+  width: 50px;
+  height: 50px;
+
+}
+
+.people p{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.social a{
+  padding-right: 20px;
+}
