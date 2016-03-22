@@ -6,7 +6,9 @@
   <title>EducationVeda</title>
 
   <!-- CSS  -->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -27,7 +29,7 @@
           <li><a href="#"> Contact us</a></li>
           <li><a href="#"> Blog</a></li>
           <li><a href="#"> Login</a></li>
-          <li><a href="#"> Register</a></li>
+          <li><a  href="#" class="waves-effect waves-light btn register">Register</a></li>
 
         </ul>
         <ul class="side-nav" id="mobile-demo">
@@ -42,36 +44,38 @@
     </nav>
   </div>
 
-  <section class="section image-slider">
+  <section class="section front">
 
 
-    <div class="slider fullscreen">
-      <ul class="slides">
-        <li>
-          <img class="main-image" src="main.jpg"> <!-- random image -->
-          <div class="caption center-align">
-            <h4 class="hide-on-large-only">Education Veda</h4>
-            <h2 class="hide-on-med-and-down">Education Veda</h2>
-            <h5 class="light grey-text text-lighten-3 ">our small slogan.</h5>
 
-            <div class="row">
-              <div class="col s12 m8 offset-m2">
-                <div class="search-bar">
-                  <form>
-                    <div class="input-field">
-                      <input id="search" type="search" required>
-                      <label for="search"><i class="material-icons">search</i></label>
 
-                    </div>
 
-                  </form>
-                </div>
-              </div>
-            </div>
+    <div class=" center-align">
+      <div class="row main-title">
+        <h4 class="hide-on-large-only blue-grey-text text-darken-4">Education Veda</h4>
+        <h2 class="hide-on-med-and-down  blue-grey-text text-darken-4">Education Veda</h2>
+        <h5 class="light grey-text text-lighten-3 ">our small slogan.</h5>
+      </div>
+
+
+      <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <div >
+            <form>
+
+              <div  class="container search-bar"><div class="input-field">
+                <input id="search" type="search" required>
+                <label for="search"><i class="material-icons">search</i></label>
+
+              </div></div>
+
+            </form>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
+
+
   </section>
 
 
@@ -84,7 +88,7 @@
   <section class="section owl-scroll">
 
 
-    <div id="owl-demo" class="owl-carousel owl-theme">
+    <div class="row"><div id="owl-demo" class="owl-carousel owl-theme">
       <div class="item">  <img class="responsive-img" src="owl/1.jpg" alt="" /> </div>
       <div class="item">  <img class="responsive-img" src="owl/2.jpg" alt="" /> </div>
       <div class="item">  <img class="responsive-img" src="owl/3.jpg" alt="" /> </div>
@@ -100,7 +104,7 @@
       <div class="item">  <img class="responsive-img" src="owl/3.jpg" alt="" /> </div>
       <div class="item">  <img class="responsive-img" src="owl/4.jpg" alt="" /> </div>
       <div class="item">  <img class="responsive-img" src="owl/5.jpg" alt="" /> </div>
-    </div>
+    </div></div>
   </section>
 
 
@@ -116,9 +120,9 @@
       <div class="col m3 s6 ">
         <div class="container center-align">
 
-          <a class="links" href="#">  <img class="responsive-img" src="menu/1.png" alt="School" />
+          <a href="#">  <img class="responsive-img" src="menu/1.png" alt="School" />
             <div class=" col s12 waves-effect default option-menu-button">
-              School
+              <h5 class="links" >School</h5>
             </div>
           </a>
         </div>
@@ -126,8 +130,8 @@
 
       <div class="col m3 s6 ">
         <div class="container center-align">
-          <a class="links" href="#"><img class="responsive-img" src="menu/2.png" alt="School" /><div class=" col s12 waves-effect default option-menu-button">
-            Institute
+          <a  href="#"><img class="responsive-img" src="menu/2.png" alt="School" /><div class=" col s12 waves-effect default option-menu-button">
+            <h5 class="links">College</h5>
           </div>
         </a>
       </div>
@@ -136,8 +140,8 @@
     <div class="col m3 s6 ">
       <div class="container center-align ">
 
-        <a class="links" href="#"><img class="responsive-img" src="menu/3.png" alt="School" /> <div class=" col s12 waves-effect default option-menu-button">
-          Hobby Center
+        <a  href="#"><img class="responsive-img" src="menu/3.png" alt="School" /> <div class=" col s12 waves-effect default option-menu-button">
+          <h5 class="links">Hobby Center</h5>
         </div></a>
       </div>
     </div>
@@ -145,9 +149,9 @@
     <div class="col m3 s6 ">
       <div class="container  center-align">
 
-        <a class="links" href="#">
+        <a  href="#">
           <img class="responsive-img" src="menu/4.png" alt="School" /><div class=" col s12 waves-effect default option-menu-button">
-            AWC
+            <h5 class="links">AWC</h5>
           </div>
         </a>
       </div>
@@ -161,53 +165,53 @@
     <h5 class="hide-on-large-only center-align title">How it Works</h5>
     <h3 class="hide-on-med-and-down center-align title">How it Works</h3>
 
-    <div class="row">
-    <div class="col s12 m6 offset-m3">
-      <ul class="tabs ">
-        <li class="tab col s6 m3  center-align"><a  href="#test1">IF YOU LEARN</a></li>
-        <li class="tab col s6 m3  center-align"><a class="active" href="#test2">IF YOU TEACH</a></li>
-      </ul>
+    <div class="container">
+      <div class="col s12 m6 offset-m3">
+        <ul class="tabs teal-text text-darken-4">
+          <li class="tab col s6   center-align"><a  href="#test1">IF YOU LEARN</a></li>
+          <li class="tab col s6   center-align"><a class="active" href="#test2">IF YOU TEACH</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-      <!-- desktop sec #1 -->
+    <!-- desktop sec #1 -->
     <div id="test1" >
       <div class="col s12 hide-on-med-and-down">
         <div class="row">
           <div class="col s4">
-                <div class="container center-align">
-                  <img class="responsive-img" src="menu/2.png" alt="School" />
-                  <div class=" col s12 option-menu-button">
-                  <h5>Feature</h5>
-                  </div>
-                  <p>
-                    single line description of feature
-                  </p>
-                </div>
+            <div class="container center-align">
+              <img class="responsive-img" src="menu/2.png" alt="School" />
+              <div class=" col s12 option-menu-button">
+                <h5>Feature</h5>
+              </div>
+              <p>
+                single line description of feature
+              </p>
+            </div>
           </div>
 
           <div class="col s4">
-                <div class="container center-align">
-                  <img class="responsive-img" src="menu/2.png" alt="School" />
-                  <div class=" col s12 option-menu-button">
-                  <h5>Feature</h5>
-                  </div>
-                  <p>
-                    single line description of feature
-                  </p>
-                </div>
+            <div class="container center-align">
+              <img class="responsive-img" src="menu/2.png" alt="School" />
+              <div class=" col s12 option-menu-button">
+                <h5>Feature</h5>
+              </div>
+              <p>
+                single line description of feature
+              </p>
+            </div>
           </div>
 
           <div class="col s4">
-                <div class="container center-align">
-                  <img class="responsive-img" src="menu/2.png" alt="School" />
-                  <div class=" col s12 option-menu-button">
-                  <h5>Feature</h5>
-                  </div>
-                  <p>
-                    single line description of feature
-                  </p>
-                </div>
+            <div class="container center-align">
+              <img class="responsive-img" src="menu/2.png" alt="School" />
+              <div class=" col s12 option-menu-button">
+                <h5>Feature</h5>
+              </div>
+              <p>
+                single line description of feature
+              </p>
+            </div>
           </div>
 
         </div>
@@ -215,21 +219,21 @@
 
       <div class="hide-on-large-only">
         <div class="row">
-                  <div class="slider feature">
-              <ul class="slides">
-                <li>
-                  <img  src="menu/4.png">
+          <div class="slider feature">
+            <ul class="slides">
+              <li>
+                <img  src="menu/4.png">
 
-                </li>
-                <li>
-                  <img src="menu/4.png">
-                </li>
-                <li>
-                  <img  src="menu/4.png">
+              </li>
+              <li>
+                <img src="menu/4.png">
+              </li>
+              <li>
+                <img  src="menu/4.png">
 
-                </li>
-              </ul>
-            </div>
+              </li>
+            </ul>
+          </div>
 
         </div>
       </div>
@@ -239,192 +243,188 @@
 
 
 
-      <!-- desktop sec #2 -->
-      <div id="test2" >
-        <div class="col s12 hide-on-med-and-down">
-          <div class="row">
-            <div class="col s4">
-                  <div class="container center-align">
-                    <img class="responsive-img" src="menu/3.png" alt="School" />
-                    <div class=" col s12 option-menu-button">
-                    <h5>Feature</h5>
-                    </div>
-                    <p>
-                      single line description of feature
-                    </p>
-                  </div>
-            </div>
-
-            <div class="col s4">
-                  <div class="container center-align">
-                    <img class="responsive-img" src="menu/3.png" alt="School" />
-                    <div class=" col s12 option-menu-button">
-                    <h5>Feature</h5>
-                    </div>
-                    <p>
-                      single line description of feature
-                    </p>
-                  </div>
-            </div>
-
-            <div class="col s4">
-                  <div class="container center-align">
-                    <img class="responsive-img" src="menu/3.png" alt="School" />
-                    <div class=" col s12 option-menu-button">
-                    <h5>Feature</h5>
-                    </div>
-                    <p>
-                      single line description of feature
-                    </p>
-                  </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="hide-on-large-only">
-          <div class="row">
-                    <div class="slider feature">
-                <ul class="slides">
-                  <li>
-                    <img  src="menu/1.png">
-
-                  </li>
-                  <li>
-                    <img src="menu/1.png">
-                  </li>
-                  <li>
-                    <img  src="menu/1.png">
-
-                  </li>
-                </ul>
+    <!-- desktop sec #2 -->
+    <div id="test2" >
+      <div class="col s12 hide-on-med-and-down">
+        <div class="row">
+          <div class="col s4">
+            <div class="container center-align">
+              <img class="responsive-img" src="menu/3.png" alt="School" />
+              <div class=" col s12 option-menu-button">
+                <h5>Feature</h5>
               </div>
-
+              <p>
+                single line description of feature
+              </p>
+            </div>
           </div>
-        </div>
 
+          <div class="col s4">
+            <div class="container center-align">
+              <img class="responsive-img" src="menu/3.png" alt="School" />
+              <div class=" col s12 option-menu-button">
+                <h5>Feature</h5>
+              </div>
+              <p>
+                single line description of feature
+              </p>
+            </div>
+          </div>
+
+          <div class="col s4">
+            <div class="container center-align">
+              <img class="responsive-img" src="menu/3.png" alt="School" />
+              <div class=" col s12 option-menu-button">
+                <h5>Feature</h5>
+              </div>
+              <p>
+                single line description of feature
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+      <div class="hide-on-large-only">
+        <div class="row">
+          <div class="slider feature">
+            <ul class="slides">
+              <li>
+                <img  src="menu/1.png">
+
+              </li>
+              <li>
+                <img src="menu/1.png">
+              </li>
+              <li>
+                <img  src="menu/1.png">
+
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
 
 
   </section>
 
   <section class="people">
+
+
     <h5 class="hide-on-large-only center-align title">What People Say</h5>
     <h3 class="hide-on-med-and-down center-align title">What People Say About Us</h3>
 
-    <div class="row">
-      <div class="col s12 m6">
-        <div class="col s3 center-align">
-          <img class="circle responsive-img" src="people/1.jpg" alt="" />
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12 m6 card z-depth-2">
+          <div class="col s3 center-align">
+            <img class="circle responsive-img" src="people/1.jpg" alt="" />
+          </div>
+          <div class="col s9 left-align">
+            <p>
+              Lorem ipsum dolor sit ame onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p>
+              John Doe, Anonymous
+            </p>
+          </div>
         </div>
 
-        <div class="col s9 left-align">
-          <p>
-            <span>"</span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <span>"</span>
-          </p>
-
-          <p>
-            John Doe, Anonymous
-          </p>
+        <div class="col s12 m6 card z-depth-2">
+          <div class="col s3 center-align">
+            <img class="circle responsive-img" src="people/1.jpg" alt="" />
+          </div>
+          <div class="col s9 left-align">
+            <p>
+              Lorem ipsum dolor sit ame onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p>
+              John Doe, Anonymous
+            </p>
+          </div>
         </div>
-    </div>
-    <div class="col s12 m6">
-      <div class="col s3 center-align">
-        <img class="circle responsive-img" src="people/1.jpg" alt="" />
+
+        <div class="col s12 m6 card z-depth-2">
+          <div class="col s3 center-align">
+            <img class="circle responsive-img" src="people/1.jpg" alt="" />
+          </div>
+          <div class="col s9 left-align">
+            <p>
+              Lorem ipsum dolor sit ame onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p>
+              John Doe, Anonymous
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m6 card z-depth-2">
+          <div class="col s3 center-align">
+            <img class="circle responsive-img" src="people/1.jpg" alt="" />
+          </div>
+          <div class="col s9 left-align">
+            <p>
+              Lorem ipsum dolor sit ame onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p>
+              John Doe, Anonymous
+            </p>
+          </div>
+        </div>
       </div>
-
-      <div class="col s9 left-align">
-        <p>
-          <span>"</span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          <span>"</span>
-        </p>
-
-        <p>
-          John Doe, Anonymous
-        </p>
-      </div>
-  </div>
-  <div class="col s12 m6 hide-on-med-and-down">
-    <div class="col s3 center-align">
-      <img class="circle responsive-img" src="people/1.jpg" alt="" />
     </div>
 
-    <div class="col s9 left-align">
-      <p>
-        <span>"</span>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <span>"</span>
-      </p>
 
-      <p>
-        John Doe, Anonymous
-      </p>
-    </div>
-</div>
-<div class="col s12 m6 hide-on-med-and-down">
-  <div class="col s3 center-align">
-    <img class="circle responsive-img" src="people/1.jpg" alt="" />
-  </div>
 
-  <div class="col s9 left-align">
-    <p>
-      <span>"</span>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      <span>"</span>
-    </p>
 
-    <p>
-      John Doe, Anonymous
-    </p>
 
-  </div>
-</div>
-    </div>
 
   </section>
 
-<footer class="page-footer">
+  <footer id="foot" class="page-footer blue-grey darken-4 white-text">
 
 
-      <div class="row">
-          <div class="col s12 m4">
-            <h5>Quick Links</h5>
-            <ul>
-              <li>Link 1</li>
-              <li>Link 2</li>
-              <li>Link 3</li>
-              <li>Link 4</li>
+    <div class="row ">
+      <div class="col s12 m4">
+        <h5>Quick Links</h5>
+        <ul class="quick">
+          <li><a href="#">Blogs</a></li>
+          <li>  <a href="#">About Us</a></li>
+          <li>  <a href="#">Register</a></li>
+          <li>  <a href="#">Feedback</a></li>
 
-            </ul>
-          </div>
-          <div class="col s12 m4">
-            <h5>Contact Info.</h5>
-            <p class="left-align">
-              +254 723 890 353 <br>
-              +254 710 919 335 <br>
-              +1812-241-7355 <br>
-              info@educationveda.com <br>
-              support@educationveda.com
-            </p>
-          </div>
-          <div class="col s12 m4 social">
-            <h5>Social Links</h5>
-            <a target="_blank" title="follow me on facebook" href="http://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
-            <a target="_blank" title="follow me on Twitter" href="http://www.twitter.com/PLACEHOLDER"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
-            <a target="_blank" title="follow me on google plus" href="https://plus.google.com/PLACEHOLDER"><img alt="follow me on google plus" src="https://c866088.ssl.cf3.rackcdn.com/assets/googleplus30x30.png" border=0></a>
-
-          </div>
+        </ul>
       </div>
-      <div class="footer-copyright">
-        <div class="row right-align">
-          All rights reserved.
-        </div>
+      <div class="col s12 m4">
+        <h5>Contact Info.</h5>
+        <p class="left-align">
+          +254 723 890 353 <br>
+          +254 710 919 335 <br>
+          +1812-241-7355 <br>
+          info@educationveda.com <br>
+          support@educationveda.com
+        </p>
       </div>
+      <div class="col s12 m4 social">
+        <h5>Social Links</h5>
+        <a href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+        <a href="http://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+        <a href="http://plus.google.com" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
 
-</footer>
+      </div>
+    </div>
+    <div class="footer-copyright blue-grey darken-3 white-text">
+      <div class="row right-align">
+        All rights reserved.
+      </div>
+    </div>
+
+  </footer>
 
   <!--  Scripts-->
   <script src="js/jquery.js"></script>
@@ -448,8 +448,9 @@
     owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second paramete
 
 
-
   });
+
+
   </script>
 
 
